@@ -7,10 +7,5 @@ pipeline {
             echo 'pipeline'
          }
       }
-      stage('java path') {
-          steps {
-              sh label: '', script: '''$JAVA_HOME'''
-          }
-      }
    }
 }
